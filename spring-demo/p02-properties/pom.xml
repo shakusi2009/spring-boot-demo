@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>p01-properties</artifactId>
+    <artifactId>p02-properties</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -26,7 +26,5 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
         </dependency>
-
     </dependencies>
-
 </project>

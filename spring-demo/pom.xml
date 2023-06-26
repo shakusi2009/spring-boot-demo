@@ -16,6 +16,7 @@
     <description>spring-demo</description>
     <modules>
         <module>p01-properties</module>
+        <module>p02-properties</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -43,6 +44,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.45</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
